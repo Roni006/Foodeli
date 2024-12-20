@@ -21,10 +21,13 @@ VERSION: 1.0.0
     --global-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     --hero-subtitle-bg: #FEE9DE;
     --play-bg: #F2C94C;
+    --hover-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --cusmoter-designation: #828282;
 }
 
 body {
     font-family: var(--sub-heading);
+    margin-bottom: 400px;
 }
 
 h1 {
@@ -116,7 +119,9 @@ h6 {
     align-items: center;
     column-gap: 5px;
 }
-
+.login a .log-icon{
+    color:var(--play-bg); 
+}
 .text {
     color: var(--white-color);
     font-size: 18px;
@@ -263,6 +268,97 @@ ul li:hover ul.submenu {
 }
 /* <!--HERO SECTION END --> */
 
+
+/* <!--SERVICE SECTION START  --> */
+.service-section{
+    padding: 60px 0;
+}
+.service-top{
+    text-align: center;
+}
+.service-subtitle h6{
+    font-weight: 500;
+    color: var(--menu-hover-color);
+}
+.service-title h2{
+    line-height: 45px;
+    padding: 20px 0 0 0 ;
+}
+.service-row{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-block{
+    width: 315px;
+    box-shadow: var(--global-shadow);
+    padding: 20px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+.s-block:hover{
+    box-shadow: var(--hover-shadow); 
+    transition: 0.2s;
+}
+.s-block1-title h4{
+    margin: 10px 0;
+}
+.s-block1-text p{
+    font-size: 16px;
+}
+/* <!--SERVICE SECTION END --> */
+
+/* <!--CUSTOMER SECTION START  --> */
+.customer-section{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.customer-left{
+    position: relative;
+}
+.cus-shape {
+    position: absolute;
+    right: -110px;
+    bottom: -150px;
+}
+.customer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-right{
+    align-self: center;
+}
+.customer{
+    text-align: left;
+}
+.customer-text p{
+    font-size: 16px;
+    margin-top: 20px;
+    width: 490px;
+}
+.review{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.customer-details .bold{
+    font-size: 20px;
+    font-weight: 500;
+}
+.customer-details .normal{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cusmoter-designation);
+}
+.rating{
+    display: flex;
+    margin-top: 20px;
+    column-gap: 15px;
+}
+/* <!--CUSTOMER SECTION END --> */
 
 /* <!-- SECTION START  --> */
 /* <!-- SECTION END --> */
