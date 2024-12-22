@@ -38,6 +38,9 @@
     .customer-right {
         margin-top: 50px;
     }
+    .app-row{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 900px) {
@@ -131,5 +134,24 @@
 
     .customer-text p {
         padding: 0;
+    }
+    .app-title h2{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .app-text p{
+        width: 350px;
+        text-align: justify; 
+    }
+    .shape1 {
+        position: absolute;
+        right: 90px;
+        bottom: 565px;
+    }
+    .shape2 {
+        position: absolute;
+        right: 155px;
+        bottom: 200px;
+        z-index: 99;
     }
 }
