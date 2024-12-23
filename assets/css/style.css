@@ -25,6 +25,7 @@ VERSION: 1.0.0
     --cusmoter-designation: #828282;
     --app-subtitle: #010F1C;
     --app-section-bg: #FFC3BD;
+    --email-border: #BDBDBD;
 }
 
 body {
@@ -426,5 +427,58 @@ ul li:hover ul.submenu {
 }
 /* <!--APP SECTION END --> */
 
-/* <!-- SECTION START  --> */
-/* <!-- SECTION END --> */
+/* <!--FOOTER SECTION START  --> */
+.footer-section{
+
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left .footer-text p{
+    width: 290px;
+    font-size: 16px;
+    line-height:  30px;
+    padding: 30px 0 35px 0;
+}
+.footer-icons{
+    display: flex;
+    column-gap: 20px;
+} 
+.footer-middle .footer-title p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-menus li{
+    list-style: none; 
+}
+.footer-menus li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--menu-color);
+    font-weight: 500;
+}
+.footer-menus li a:hover{
+    color: var(--menu-hover-color);
+    transition: 0.2s;
+}
+.email {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px; 
+    border: 1px solid var(--email-border);
+    padding: 15px 20px; 
+    border-radius: 50px;
+}
+.email input{
+    border: none;
+    outline: none;
+    padding: 0 8px;
+}
+::placeholder{
+    font-size: 18px;
+    color: var(--menu-color);
+}
+/* <!--FOOTER SECTION END --> */
