@@ -41,6 +41,12 @@
     .app-row{
         flex-wrap: wrap;
     }
+    .footer-row{
+        flex-wrap: wrap;
+        row-gap: 30px; 
+        column-gap: 30px;
+        align-items: flex-start;  
+    }
 }
 
 @media (max-width: 900px) {
