@@ -113,7 +113,8 @@ h6 {
     column-gap: 20px;
 }
 
-.login {
+.login, 
+.nav-login {
     background-color: var(--menu-hover-color);
     padding: 15px 30px;
     border-radius: 50px;
@@ -183,7 +184,7 @@ ul li:hover ul.submenu {
     justify-content: flex-start;
     transition: 0.2s;
     /* padding: 70px 0; */
-    display: none;
+    /* display: none; */
 }
 
 .close {
@@ -197,6 +198,27 @@ ul li:hover ul.submenu {
 
 /* SIDE BAR  */
 
+.sidebar-content{
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    column-gap: 20px;
+    padding: 0 15px;
+}
+.nav-login:hover{
+    opacity: 0.7;
+    color: var(--app-subtitle);
+    transition: 0.2s;
+}
+.nav-login:hover  span{  
+    color: var(--app-subtitle);
+}
+.nav-cart:hover a svg{
+    color: var(--menu-hover-color);
+}
+.sidebar-content{
+    display: none;
+}
 /* <!-- HEADER SECTION END --> */
 
 

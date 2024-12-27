@@ -106,7 +106,13 @@
     .login {
         display: none;
     }
-
+    .sidebar-content{
+        display: block; 
+    }
+    .nav-cart,
+    .nav-search{
+        padding: 0 5px;
+    }
     .hero-text p {
         width: 100%;
         text-align: justify;
